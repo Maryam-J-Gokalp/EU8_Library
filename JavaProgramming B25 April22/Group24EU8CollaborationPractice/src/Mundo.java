@@ -6,6 +6,7 @@ public class Mundo {
         System.out.println("Lets do it");
         System.out.println("The game started");
         System.out.println("So whatapps");
+        System.out.println("");
     }
     /*
     Isto foi criado pelo o prefessor
