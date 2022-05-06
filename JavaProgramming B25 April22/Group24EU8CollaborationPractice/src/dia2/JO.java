@@ -1,3 +1,5 @@
+package dia2;
+
 public class JO {
 
     // for-each loop

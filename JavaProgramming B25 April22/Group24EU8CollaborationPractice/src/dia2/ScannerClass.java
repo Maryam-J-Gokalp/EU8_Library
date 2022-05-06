@@ -1,3 +1,5 @@
+package dia2;
+
 import java.util.Scanner;
 
   //input from user using Scanner Class

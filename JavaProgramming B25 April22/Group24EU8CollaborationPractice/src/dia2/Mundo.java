@@ -1,3 +1,5 @@
+package dia2;
+
 public class Mundo {
     public static void main(String[] args) {
 
