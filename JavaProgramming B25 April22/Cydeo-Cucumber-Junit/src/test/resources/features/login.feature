@@ -1,3 +1,4 @@
+@Regression @smoke @login
 Feature: Library app login feature
   User Story:
   As a user, I should be able to login with correct credentials to different
@@ -7,6 +8,7 @@ Feature: Library app login feature
 
   Background: For the scenarios in the feature file, user is expected to be on login page
     Given user is on the library login page
+
   #OnceYouClick onYour StepItsSayNoDocumentToBeFound-->COZ ThereIsNotMatchingToMakeMyStepsAsAction
   #ToGetMyStepsDefinitionIGoToRunnerClass-->WeImportWhereMyProjectIsGenerated. WeDecidedWhereMyFeatureFileIsStore
   #WeDecideWhereMyProjectIsCreated COZ RunnerClass IsWhereWeAreGoingToControl&ManageTheWholeProject
@@ -27,6 +29,7 @@ Feature: Library app login feature
     And user enters student password
     Then user should see the dashboard
 
+    #3rd scenario
   @admin @employee
   Scenario: Login as admin
     When user enters admin username
