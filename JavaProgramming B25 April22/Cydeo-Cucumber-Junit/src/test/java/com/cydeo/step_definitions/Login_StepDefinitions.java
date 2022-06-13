@@ -33,7 +33,7 @@ public class Login_StepDefinitions {
 
 }
 
-//Your steps must be unique
+//Your steps must be unique & intellij shortcut give u cleanQuickCode print
 //TheLine Provide by Cucumber is a temporary Line until you implement the code
 //InLine13-->WeAreNewLineProvideByCucumber-->throw new io.cucumber.java.PendingException(); When U runTheCode
 //SayUNeed toImplementThen once u delete cucumber line is does not give u any more exception
