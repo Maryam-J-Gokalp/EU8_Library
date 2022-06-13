@@ -13,18 +13,35 @@ Feature: Library app login feature
   #IsWhere,MyStepAreCreated.ProjectGenerate,FeatureAreStore,WhereWeRunTheCodeItself ToRun myFeature
   # FilesToGetMyDefinitionSnips
 
+  #1st scenario
   @librarian @employee
   Scenario: Login as librarian
     When user enters librarian username
     And user enters librarian password
     Then user should see the dashboard
 
+    #2rd scenario
+  @student @db
+  Scenario: Login as student
+    When user enters student username
+    And user enters student password
+    Then user should see the dashboard
+
+  @admin @employee
+  Scenario: Login as admin
+    When user enters admin username
+    And user enters admin password
+    Then user should see the dashboard
+
   #this is how we add comments in feature file
+
+  #this is how we add comments in feature file
+  #Keywords WHEN, AND,THEN,BUT IsOnly ToCommunicate TheyDon't change the TestExecution Function
 
   # RESOURCES&FEATURES FOLDER-->Look like create different folders for different type of files
   # WhatWe Did? 1st WeCreateFeatureFileNamed-->login.feature
   # 2rd We Created OurScenario--> Scenario:Login as librarian
- #3rdWeCreatedOurSteps->When userEnters admin username.And userEnters admin password.Then userShould C the dashboard
+  #3rdWeCreatedOurSteps->When userEnters admin username.And userEnters admin password.Then userShould C the dashboard
   #YOUR USER StoryMustMatchWithUserStorySteps WithLogInStepsClass
 
   # Test suppose to be readable and implement for different scenario of my class
