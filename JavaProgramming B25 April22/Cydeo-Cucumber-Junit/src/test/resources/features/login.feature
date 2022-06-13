@@ -15,21 +15,21 @@ Feature: Library app login feature
   #IsWhere,MyStepAreCreated.ProjectGenerate,FeatureAreStore,WhereWeRunTheCodeItself ToRun myFeature
   # FilesToGetMyDefinitionSnips
 
-  #1st scenario
+  #Scenario
   @librarian @employee
   Scenario: Login as librarian
     When user enters librarian username
     And user enters librarian password
     Then user should see the dashboard
 
-    #2rd scenario
-  @student @db
+  #Scenario
+   @student @db
   Scenario: Login as student
     When user enters student username
     And user enters student password
     Then user should see the dashboard
 
-    #3rd scenario
+  #Scenario
   @admin @employee
   Scenario: Login as admin
     When user enters admin username

@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/cydeo/step_definitions",
         dryRun = false,
-        tags = "@employee and @admin"
+        tags = "@employee and not @admin"
 
 
 )
@@ -25,3 +25,6 @@ public class CukesRunner {
 //Glue Is Where I Will Be Writing Java Code selenium implementation From
 // Step_definitionsFolder-->glue = "com/cydeo/step_definitions",
 //WhereTheDirectory willBe Storing feature steps--->onTheResources Folder-->inside features folder
+
+//ToRunEverything InMyFeatureFileExcept Student UCanSay-->tags = "@Regression and not @student"
+//ThisWill run everything inFeature file&CheckForOtherCondition &IfHaveStudentTagItWill Exclude
