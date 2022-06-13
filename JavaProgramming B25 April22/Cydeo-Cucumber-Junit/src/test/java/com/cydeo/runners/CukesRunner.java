@@ -6,13 +6,12 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-
-
 @CucumberOptions(
+        plugin = "html:target/cucumber-report.html",
         features = "src/test/resources/features",
         glue = "com/cydeo/step_definitions",
         dryRun = false,
-        tags = "@employee and not @admin"
+        tags = ""
 
 
 )
@@ -28,3 +27,6 @@ public class CukesRunner {
 
 //ToRunEverything InMyFeatureFileExcept Student UCanSay-->tags = "@Regression and not @student"
 //ThisWill run everything inFeature file&CheckForOtherCondition &IfHaveStudentTagItWill Exclude
+
+//plugin = {
+//Suppose to generate under Target folder when u run and save in TargetFolder
