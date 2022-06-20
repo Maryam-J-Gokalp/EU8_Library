@@ -46,4 +46,5 @@ public class OrderPage extends BasePage {
     public WebElement processOrderBtn;
 
 }
+
 //Make one template 6x and change the name see on the above scenario to focus on pass the locator->quantity,name etc..
