@@ -18,7 +18,6 @@ public class DropDownStepDefinition {
         System.out.println(fruits.get(2));
 
 
-
     }
     @Given("User is on the page")
     public void user_is_on_the_page() {
@@ -36,7 +35,6 @@ public class DropDownStepDefinition {
         Assert.assertEquals(expectedMonths,actualMonths);
 
     }
-
 
 }
 
