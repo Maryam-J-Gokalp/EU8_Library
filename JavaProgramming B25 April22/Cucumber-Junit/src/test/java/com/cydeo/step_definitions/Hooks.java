@@ -59,5 +59,4 @@ public class Hooks {
         System.out.println("--------> applying tearDown using @AfterStep");
     }
 
-
 }
