@@ -18,6 +18,4 @@ public class ViewAllOrdersPage extends BasePage{
     @FindBy(xpath = "//table[@class='table is-fullwidth']/tbody/tr[1]/td[1]")
     public WebElement newCustomerCell;
 
-
-
 }
