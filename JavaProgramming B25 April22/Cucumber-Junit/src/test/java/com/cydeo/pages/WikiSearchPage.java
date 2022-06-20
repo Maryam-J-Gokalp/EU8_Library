@@ -21,5 +21,4 @@ public class WikiSearchPage {
     public WebElement mainHeader;
 
 
-
 }
