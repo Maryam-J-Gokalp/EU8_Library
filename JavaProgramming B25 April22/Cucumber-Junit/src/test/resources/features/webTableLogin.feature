@@ -25,6 +25,7 @@ Feature: Login scenario
      | password     | Tester |
     Then user should see url contains orders
 
+
   #Use simple login() commented version to accept data table as a map onMy weTable_StepDefinitions
 
     #Locate 3 webElement
