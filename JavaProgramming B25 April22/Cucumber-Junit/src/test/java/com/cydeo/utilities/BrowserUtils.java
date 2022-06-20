@@ -340,7 +340,6 @@ for given duration
         ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].click();", element);
     }
 
-
     /**
      * Scrolls down to an element using JavaScript
      *
