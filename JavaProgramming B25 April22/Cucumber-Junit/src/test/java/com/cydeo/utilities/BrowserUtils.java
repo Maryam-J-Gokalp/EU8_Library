@@ -436,7 +436,6 @@ for given duration
 
     }
 
-
     /**
      * This method will recover in case of exception after unsuccessful the click,
      * and will try to click on element again.
@@ -474,6 +473,5 @@ for given duration
     public static void waitForPresenceOfElement(By by, long time) {
         new WebDriverWait(Driver.getDriver(), time).until(ExpectedConditions.presenceOfElementLocated(by));
     }
-
 
 }
