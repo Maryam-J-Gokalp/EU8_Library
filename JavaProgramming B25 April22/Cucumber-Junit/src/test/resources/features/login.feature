@@ -27,5 +27,4 @@ Feature: Library app login feature
     And user enters admin password
     Then user should see the dashboard
 
-
  # Annotation @login to target specific scenario
