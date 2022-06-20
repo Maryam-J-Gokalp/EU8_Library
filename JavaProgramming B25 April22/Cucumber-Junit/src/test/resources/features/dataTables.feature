@@ -40,7 +40,6 @@ Feature: Examples of Cucumber data table implementations
       | November  |
       | December  |
 
-
     # Implement this today 16.06.02 with java part only to understand java & cucumber. Next week implement with selenium
      #Run from the runner class to get the Sniper
 
