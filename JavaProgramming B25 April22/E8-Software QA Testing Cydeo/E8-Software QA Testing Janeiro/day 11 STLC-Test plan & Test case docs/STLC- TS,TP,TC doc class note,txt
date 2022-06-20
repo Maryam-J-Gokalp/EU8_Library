@@ -1,0 +1,195 @@
+
+Agenda: 
+
+    STCL - Software Testing Life Cycle
+
+    What is a Test strategy? who writes? 
+          - it is a doc -> prepared by PM. 
+
+    What is a Test Plan? who writes? How often?
+          - it is a doc, prepared by a QA (QAs contribute in a meeting)
+
+    What is a test case? how to write a test case doc? 
+
+=================
+
+step1: req analyze 
+
+
+Business team -> inform the QAs about which feature to test for the release. 
+
+             EX: PO,PM -> release cycle : 2 months, release v1.0-> 11/15th 
+
+                 login page + homepage dashboard features.
+                   - login feature
+                   - logout features
+                   - To Do list features
+
+
+req analyze == understand which features to test? 
+               perform which types of testing? --> UI/DB/API testings,
+                [ types of testings == testing scope] 
+               Environments? 
+               which testing tools will be used?  
+
+1 - way: verbally delivers --> during the meeting, PM explains & takes Q. 
+
+2 - way: PM write a "test Strategy" document + expains in the meeting. 
+
+3 - way: Business team + QAs conduct a meeting 
+         PM explains & takes Q 
+         PM provides a test strategy templete doc
+         QA lead / senior QA -> take a note -> after the meeting write the doc
+         in this case -> PM , PO can approve the doc
+
+===============================
+
+2. test plan 
+
+
+QAs conduct a meeting -> test plan doc 
+
+QA lead / any QA write the Test Plan doc 
+         -> Business team provides template 
+         -> whoever responsible for the doc, take a note during the meeting
+         -> write the test plan 
+         -> approval -> PM/PO/QA lead
+
+   08/25 -> test plan doc -> release v1.0 :09/04 -- 11/25
+
+   11/26 -> test plan doc -> release v2.0: 11/26 -- 02/15 
+
+
+ What is a Test Plan? who writes? How often?
+
+ - test plan is a doc -> which has project info, feature descriotion
+                         role & responsibilities 
+                         schedule 
+                         testing strategy -> testing types / tools / env 
+                         risk & mitigation 
+                         approves 
+
+
+- who writes test plan ? -> QAs / QA lead 
+
+
+- How often? -> one test plan for one release
+
+
+================================
+
+login -> tc01, tc02
+
+logout -> tc03 
+
+file upload -> tc04, tc05 ...
+
+
+=======================
+
+Step 3: test case(TC) creation 
+
+
+QAs write a TC/s based on 1 user story. 
+
+How many TC should I wrote for 1 user story? 
+
+- the best way is : 1 TC for 1 AC. 
+
+
+Test case types? 
+- Happy/Positive test case --> test a function with valid data, 
+                               test how it should respond 
+
+- negative test case --> test a function with INVALID data, or no data
+
+
+what is a (test) scenario? 
+- scenario is one sentence --> what to test? 
+                               EX:test/check/verify login function with valid data
+                                  test users upload files
+
+what is a test case? 
+
+- test case is a document --> How to test? 
+   ID, Scenario, env, steps, data, expected & actual result, test status(pass/fail)
+
+  
+EX: 
+
+manual test case: 
+
+ID: test case 01 
+sceanrio: login with valid data 
+Environment:
+steps:   
+    
+    user go to the login page
+    enter username
+    enter password
+    click login button 
+
+expected result: login successfully
+
+====================================
+
+Cucumber test case: written with Gherkin language: Given, When, And, Then 
+
+   scenario: login with valid data 
+
+       Given user on the login page
+       When user enter username
+       And user enter password
+       And user enter login button
+       Then user login successfully
+
+=============================
+
+
+users -> students: login -> logout -> room availability m schedule
+     
+         team lead -> book rooms 
+
+         teachers - book rooms
+
+=====================
+
+In Jira: 
+
+Test == Test case 
+
+Summary in Test ticket == scenario 
+
+Assignee == who will take care of this issue
+
+issue == document == ticket
+
+====================
+
+as long as your US is not relates to any function on the login page, your test cases 1st step do not start with "user go to login page". 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

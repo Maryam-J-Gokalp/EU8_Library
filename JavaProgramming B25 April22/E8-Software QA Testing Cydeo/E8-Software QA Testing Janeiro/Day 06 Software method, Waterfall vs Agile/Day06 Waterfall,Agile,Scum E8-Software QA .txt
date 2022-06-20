@@ -1,0 +1,148 @@
+21/19 note 
+Agenda: 
+    
+     - Review:
+     - Software method  
+     - Waterfall
+     - Agile  
+     - Scrum - Role, Sprint, User Story, Acceptance Criteria, Artifact
+
+==========================
+
+Software method -> method:way of to do something , rule 
+
+IT companies --> standard methods / rules
+
+waterfall method --> SDLC -> step by step, 
+                 no going back to the previous step + each step has tp completlly done before move to the second one. 
+
+                     people: separately 
+
+  EX: Football game app 
+
+     1. build Business team --> PO, BA, PM, + the client 
+           3 months for only analyze the req + prepare SRS & other documents
+
+     2. designers -> 1. read & analyze the SRS doc 
+                     2. Plan -> 4 designers + 2 months 
+                     3. design the app + SDS doc 
+
+     3. Developers -> 1. read & analyze SRS doc + SDS doc 
+                      2. 7 developers --> Plan-> 6 months - 
+                      3. develop the app by following the plan
+
+     4. Testers --> 1. read & analyze SRS doc + SDS doc + the software 
+                    2. 5 testers(QA+performance) -> plan : 5 months 
+                    3. start to test by following the plan 
+
+                       what if testers find bugs from the app? 
+                       - testers log the bugs in bug reports. 
+              
+        The client is invited to accept the app, so the team can release the app. 
+            
+            1. bugs are not big, i want the app still released. maybe fix the bugs in maintaining. 
+
+            2. Let's fix the bugs & then release the app. 
+
+        Developers release the app to the market. 
+
+
+
+
+    Amazon was in waterfall --> transferring the the agile 
+
+=========================================
+
+17 develoeprs -> work as a team with all the people for the the project
+                 invite the client on each step of SDLC
+                 get feedback often 
+                 work on a small part of the app at a time -> deliver the app on the market faster , frequently 
+                 welcome change 
+
+new software method / rule -> Agile
+
+
+Agile -> branches/ frameworks/ types 
+
+         Agile - Scrum -> complex projects 
+                   Scrum role in a Scrum team -> PO, SM, Dev team 
+                   Sprint - 2 week - 4 weeks
+                   Scrum meetings - 5
+
+
+         Agile - Kanban 
+                  a team -> business members, designers, testers, develoeprs, client
+                  10 user stories -> meet with the client 
+                      - 2 weeks 
+                      - 3 weeks 
+                      - 8 days 
+
+
+
+         Agile - XP, LEAN, Crystal
+
+=============================
+
+Agile - Scrum: 
+
+What is Scrum? -> Scrum 3 roles, 3 artifacts, 5 meetings
+
+Sprint -> time box , fixed 
+          
+          1 sprint =  1 week
+          1 sprint =  2 weeks ---> the most common sprint cycle 
+
+              some req -> design - develop - test in 2 weeks => meet with the client
+
+          1 sprint =  3 weeks
+          1 sprint =  4 weeks  
+
+
+brak till 12:20pm 
+
+
+The po wrote the US on Feb/10 for Sprint 1  (march 1 - 12). 
+
+
+ Feb/10 -> US --> given designers -> design it --> the client will approce it --> march 1st -> US + the design blueprint given to the Scrum team
+
+
+Scrum master -> master on Scrum, coach the team about the scrum meetings, guide the team to follow the scrum rules, facilitator, 
+
+
+srs vs user story 
+
+PO with all the BT member
+srs -> document with all the functions of the app
+
+
+PO 
+user story -> 1 sentence 
+               
+              As a user, I want to <1 function> so that I get a <benefit>
+
+
+All the user stories that PO wrote for 1 sprint a time , all of them are listed under the Product backlog. 
+    
+backlog - list of work that are waiting to be done 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

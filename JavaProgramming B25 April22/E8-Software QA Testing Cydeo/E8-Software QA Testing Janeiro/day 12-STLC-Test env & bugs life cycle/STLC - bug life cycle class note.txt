@@ -1,0 +1,194 @@
+
+Agenda: 
+   
+    - Review STLC 3 steps with the TS, TP, and TC documents 
+
+    - Test environment setup 
+    - Test Execution - Bug Life Cycle
+
+================
+
+STLC -> software testing life cycle 
+
+STLC -> one of the SDLC step 
+        step by step process how to perform testing / to test a software
+
+====================================
+release level activities: 
+stlc step1: req analyze 
+              Business team + QA team -> meeting 
+
+              PM explains the features for the release. 
+              what to test?  == which features will be tested? 
+              which testing types will be performed? == Testing Scope 
+              Environments? 
+              testing tools? 
+              release info 
+              risk & mitigation 
+
+              PM -> bring a "test strategy" doc  
+
+stlc step2: test plan preparation 
+
+             QAs -> conduct a meeting -> write their Test Plan 
+
+
+            What kind of sections a test plan has? 
+
+             Intro to the app + current planed feature
+
+             Who will be performing testing? what is their role & responsibility? 
+
+              - Yunus (Full stack SDET): API testing 
+              - Ayse (UI automation engineer):UI 
+              - Jessica (QA): DB / UI
+
+             software & hardware resources : jira, github, aws, vm, laptop, moniter, 
+
+             Test strategy -> features , testing scope + tooles + env 
+
+             schedule, risk& mitigation, approvals 
+
+===========================
+
+Sprint activities: 
+
+stlc step3: Test case doc -> ID, scenario, env, test steps, test data
+                             Expected result 
+
+                             after the test execution:
+                             actual result , test status (pass/fail)
+
+            Test script(code) prepare 
+
+
+1 QA -> user story -> 2 AC ==> the QA needs to create 2 Test Cases. 
+
+
+2 types of test cases? 
+- Positive TC: when QAs test a function with valid data 
+- Negative TC: when QAs test a function with INVALID data, without any data 
+
+
+one test case steps can be manual or cucumber: 
+
+
+manaul step: 
+  user on the homepage
+  user click a module
+  user should see a title "home"
+
+
+cucumber step: Gherkin language : Given, When, And, Then
+
+  Gievn user on the homepage
+  When user click a module
+  Then user should see a title "home"
+
+================================
+stlc step4: env setup 
+          
+             make sure the function that the QA will test is on the QA env. 
+
+
+stlc: step5: test execution: 
+
+          manual & automation testing  
+
+          expected result compared with the actual result 
+
+          expected result == what client wants
+                             listed in the user story (AC, Design )
+
+          actual result == what QA get from the software 
+
+       
+         UI/FrontEnd manual testing?
+         - in the Jira, Test Execution 
+
+         - 1 Test Execution for 1 user story. no matter how many TC you have. 
+
+
+
+=========================
+
+bug life cycle: 
+
+NEW -> ASSIGN -> OPEN -> FIX ->  RE-TEST  -> Close the bug report. 
+
+NEW -> ASSIGN -> OPEN -> Deferred -> FIX ->  RE-TEST  -> Close the bug report. 
+
+NEW -> ASSIGN -> OPEN -> REJECT : 1: it is not a valid bug
+                                  2. Duplicated bug report - different QA's reported earlier 
+
+US -> schedule -> my + general -> the bug is there is no general option
+
+US -> click the general -> the bug is there is no general option
+
+
+===================
+
+1, bug report is assigned to who? 
+
+  - it depends. 
+
+  - the best one is assigned to QA lead / BA / PO.
+
+business team & developer/s will decide when to fix the bug -> priority level 
+
+       high priority: needs to be fixed immediately - fixed in the same day 
+           EX: login page, main module
+
+       medium priority: can be fixed within the sprint
+
+            ex: spelling issue, grammar issue 
+
+       low priority: a bug from a old function, not urgent for this recent 1-2 sprints 
+
+            ex: one module is taking the user to different page, but that module is not being used by the users a lot. 
+
+
+when you find a bug, you evaluate the bug's impact level to the other functions -> severity level, how much serious is this bug? 
+
+     high severity: login page, app is down 
+
+     medium severity: bug from a function, it is not really effecting the other functions 
+
+     low severity: app cosmetic issue, typo, grammar issue ..
+
+
+example: bug -> company logo -> Cydeo: Cyde 
+        severity level: low  
+        business & dev priority level: high 
+
+
+===========================================
+
+How did you handle a bug ? 
+
+-> 1. confirm it is valid bug 
+        
+     -> testing the func with multiple data 
+     -> test the fuc in the different env (qa1,qa2, if you have access the dev env)
+
+-> 2. communicate with different QAs 
+       
+     -> ask him/her to test the func from the different env(wifi,laptop) 
+     -> by this QAs can prevent bug report duplication
+
+-> 3. communicate with the dev 
+    
+     -> if it is a small bug -> your dev just fix the bug. 
+
+     -> if it is a big bug -> your dev ask you to create a bug report. 
+
+
+     -> dev does not agree for the bug. BA/PO can explain the US to clear the req. 
+
+         - the po/ba , the dev & the qa -> meet to identify if it s bug or not. 
+
+===========
+1 US -> 2 TC , 1 TC passed, 1 TC failed --> the US is failed
+
+
+

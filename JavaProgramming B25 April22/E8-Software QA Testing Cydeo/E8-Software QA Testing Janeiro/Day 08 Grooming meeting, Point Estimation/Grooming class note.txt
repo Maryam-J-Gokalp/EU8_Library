@@ -1,0 +1,192 @@
+
+
+Agenda: 
+
+   - Grooming meeting 
+        - when to conduct? who joins the meeting? what to do? 
+
+   - User Story point estimation 
+
+=================
+
+Review Scrum
+
+Agile -> software method, set of rule
+         
+         - customer sanctification 
+         - team work -> face to face communication 
+         - work small part of the app at a time
+         - release the app in a short cycle
+
+         Agile Branches / Framework / types: 
+
+            - Scrum -> Scrum team + roles(3)
+            - Kanban
+            - XP
+            - Lean 
+
+--------------------
+
+ What is Scrum? How did you use/implemented the Scrum in your proect? 
+
+   - Scrum team -> Scrum 3 roles: 1 PO, 1 SM, Dev team(Developers & QAs)
+
+     real work, the team members might be different: 
+
+        - BA -> helper for the PO
+        - performance tester
+        - designers 
+
+        QA1 -> 1 po, 1 SM, 4dev, 2QA
+        QA2 -> 1 po, 1 SM, 1 BA, 5dev, 3QA
+        QA3 -> 1 po, 1 SM, 1 performance tester, 4dev, 3QA
+        QA4 -> 1po, 1ba, 1sm, 4dev, 4qas, 1 designer, 2 performances
+
+   - Scrum artifacts -> important key words, documents, result
+
+        - Product backlog, Sprint backlog, product Increment, Burn down chart
+
+        Product backlog: is a place/document, list of to do user stories 
+                          Jira -> project management app 
+                          PO manages the PB -> prioritize the user stories 
+                          1 - 2 sprint's user stories are listed ay a time. 
+
+        product Increment: completed tasks - US/bugs 
+
+
+   - Scrum meetings -> 5 meetings 
+
+
+Sprint -> 1 week --> 4 weeks, 
+          2 weeks is the most common cycle. 
+
+          1 sprint ==  2 weeks == 15 business days  
+
+
+
+user stories: client's requirement
+  
+   client- i want students are able to watch recordigs
+  
+   PO -> 
+   User Story: 
+     As a user, I want to watch recordings so that I can review the classes.
+
+   Acceptance Criteria: Accept, Criteria: 
+    1. teachers should be able to upload zoom recordings 
+    2. students only can watch 
+    3. users should be able to stop a recording by clicking "STOP" button 
+---------------------------------------
+
+Scrum meeting: 1. Grooming meeting 
+
+
+before the grooming -> PO has to prepare US under the backlog 
+                       US are prioritized 
+
+
+at the meeting: 1. PO explains the US to the dev team 
+                
+                - the PO opens one US -> explains the US & AC 
+                - devs & qas -> PO will answer
+
+                2. Estimate point 
+
+                - Developers & testers estimate points based on the Fibonacci 
+
+output of the grooming -> US are clarified by the PO, & each user story is estimated.             
+======================
+
+estimate user story: 
+
+
+companies has a rule: 
+1. effort -> write code, write test case time 
+2. knowledge + experience -> work on the similar user stoy 
+3. complexity level -> easy, medium, hard 
+
+Fibonacci number 
+
+  1, 2, 3, 5, 8, 13, 21
+
+
+  1 point = 1 day 
+
+  login --> 1 day --> 1 point 
+  file upload -> 3 days --> 3 points 
+
+interview question-> 
+can you assign number 7 to a user story? 
+- no, we only assign points that is appeared in the Fibonacci system
+
+   1 sprint == 2 weeks == 10 days --> 8 days to work on users tories: 
+
+         User sorties -> are all small enough to complete within the sprint
+
+         1,2,3,5 --> only these are small 
+         8,13,21 --> they are epci (Epic is a big user story) 
+
+
+   1 sprint == 3 weeks == 15 days 
+
+   1 sprint == 4 weeks == 20 days
+
+==================
+
+estimate rule #1: 
+
+1 point = 1 day
+login -> 
+
+     dev1 -> 3 days -> 3 points
+     dev2 -> 2 days -> 2 points
+     dev3 -> 5 days -> 5 points
+
+     The po -> ask the lowest point & highest points to explain the reason
+           
+       after the discussion, the will vote again.
+
+       3 points==> developers 3 days      
+         
+
+     qa1 -> 1 day -> 1 point 
+     qa2 -> 2 days -> 2 points
+
+    The po -> ask the lowest point & highest points to explain the reason
+       
+       1 point --> 1 day to test. 
+
+
+    dev-> 3 point  QA -> 1 point  ==> 3+1 = 4?  --> 5 points
+------------
+
+rule #2 
+
+1 point = 1 day both developing & testing 
+
+     dev1 -> 5 points -> 5 days to develop & test  
+     dev2 -> 5 points
+     dev3 -> 5 points
+     qa1  -> 3 points 
+     qa2  -> 5 points 
+
+-------------------
+rule #3 
+
+   
+Sprint 1 -> 12 User stories --> only will be worked by the developers
+                                   QAs -> prepare itellij project,preparation
+
+Sprint 2 -> 
+12 User stories from the Sprint 1 -> QAs will test, estimate points  
+
+7 new user stories for the developers-> developers estimate points
+
+
+Sprint 3 -> 
+7 User stories from Sprint 2 -> QA will estimate point & work
+
+9 new stories for the devs -> devs will estimate points
+
+
+

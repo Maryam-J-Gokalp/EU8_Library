@@ -1,0 +1,141 @@
+Static testing vs Dynamic Tetsing note
+
+Agenda: 
+
+    1. What is static testing? 
+
+        - What to test in Static testing? 
+        - In which SDLC steps do people perform the Static testing? 
+        - Who are the people perform the Static testing?
+        - How to perform the Static testing? 
+        - Is it Verification process or Validation process? 
+
+    1.What is Dynamic testing? 
+
+        - What to test in Dynamic testing? 
+        - In which SDLC steps do people perform the Dynamic testing? 
+        - Who are the people perform the Dynamic testing?
+        - How to perform the Dynamic testing?
+        - Is it Verification process or Validation process?  
+----------------------
+Review: 
+What are the testing objects do we have? 
+- documents
+- Code 
+- Software -> Fun, Non-Fun 
+
+
+Who performs testing in SDLC? 
+
+- everyone. 
+
+----------------------------------
+
+
+Software testing divided into 2 big categories: 
+
+     1. Static testing 
+
+     2. Dynamic tetsing 
+
+
+- What to test in Static testing?
+
+     - test object is : Documents 
+
+
+- In which SDLC steps do people perform the Static testing? 
+
+    - Req gathering & Design steps. 
+
+- Who are the people perform the Static testing?
+
+    - The business team members: PO, PM, BA
+    - Designers
+
+- How to perform the Static testing? How to test the documents? 
+
+    - there are 3 ways/ methods/ meetings to test the documents. 
+
+    1. Review : a informal meeting , 
+
+          Individual review: just one person review the Doc
+          group review: a group of people review the doc 
+
+    2. Walkthrough: a formal meeting, the author of the doc will go through the doc, and the others will provide feedback 
+
+    3. Inspection: the most formal. 
+
+- Is it Verification process or Validation process? 
+  
+   - Static testing is a Verification process - creating a doc -> test it -> in 1st & 2nd steps of SDLC. 
+
+-----------------
+What is static testing? 
+
+ - Static testing is testing the documents, it is done in the SDLC 1st & 2nd steps by manually. People perform static testing by Review, Walkthrough and Inspection. It is a Verification process. 
+
+
+==========================
+informal meeting: not planed ahead, not organized by any one 
+
+formal meeting: announcements -> at least 24 hours before, with the zoom link/office number, agenda, attachments , 
+
+==========================
+
+1. What is Dynamic testing? 
+
+        - What to test in Dynamic testing? 
+            
+            - Code and the software (Fun, Non-Fun)
+
+        - In which SDLC steps do people perform the Dynamic testing?
+             
+            - Developing & Testing. / 3rd & 4th step of SDLC
+
+        - Who are the people perform the Dynamic testing?
+
+            - Developers, Functions testers ( QA/SDET), Performance testers, 
+            - The client 
+            - End users
+
+
+        - How to perform the Dynamic testing?
+           
+           - by 3 testing types / ways / approaches 
+
+                 - White box testing 
+                 - Black box testing 
+                 - Gray box testing  
+
+        - Is it Verification process or Validation process? 
+
+            - Testing the code & app -> Validation process. 
+            - do by both manual & automatic ways. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

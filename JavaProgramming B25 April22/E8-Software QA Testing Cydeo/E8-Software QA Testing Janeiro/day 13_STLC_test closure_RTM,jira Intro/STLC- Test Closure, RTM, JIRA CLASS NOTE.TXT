@@ -1,0 +1,112 @@
+
+
+Agenda: 
+
+    - STLC - Test Closure step
+        - RTM - Requirement Traceability Matrix 
+          (Matrix means an arrangement of numbers/symbols in rows and columns)
+
+    - Jira intro, Jira-Xray 
+
+===============================
+
+1. Test strategy doc - PM
+
+2. Test plan doc - QA 
+
+3. Test case doc : QA, scenario, env, steps, test data , expected result, 
+                        actual result, test status : fail / pass, evidence: screenshot/videos 
+
+
+4. Environment setup 
+
+5. Test Execution : expected result vs actual result
+                     
+
+                     - bug life cycle: 
+                     1. confirm it is a valid bug?  
+
+                           - test with multiple data 
+                           - test with multiple QA env
+                           - Ask other QAs to check 
+                           - Developers 
+
+                      2. Bug report doc -> assign, opened: fixed / deferred, rejected:1. invalid bug 
+                                                                                     2. duplicated
+                      
+
+6. Test Closure: 1 user story -> 1 or more TC -> 1 test execute -> pass/fails 
+                 
+                 DOD criteria: if all the possible tets cases are created? 1 TC - 1 AC
+                               if each AC is tested or not? 
+                               if any test case tested by manually ? automatically ? both? 
+                                  manual -> test case ticket on jira is created + test execution ticket is created + test status (fail/pass)
+                               if there was a bug, what is the bug status? 
+
+
+               Sprint level: test closure report --> RTM 
+
+                  ex: sprint23 --> 12 user stories -> how many TC?
+                                                      12 Test Execution -> test staus? 
+                                                      how many bug reports? 
+
+
+=======================
+
+Jira intro 
+
+- project management app -> docs : us, tc, bug, epic 
+                            tasks: install aps? create framework 
+                            communication 
+                            reports 
+                            doc / tasks tracking?  
+
+
+
+                            amazon - prime, music, e-book, shopping
+
+
+
+jira -> story, bug, test, test execution, epic, etc ==> ticket, issue 
+
+2001 -> intial release 
+        
+
+         plugin -> extra features 
+
+         jira - zephyr plugin : 30 reports, story, bug, tc 
+
+         jira - xray plugin : 100+ reports, story, bug, test, test execution, epic, etc 
+
+
+
+In Cydeo, we provide jira - xray plugin to practice 
+
+
+-----------------
+
+next week - smoke & regression 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   
+

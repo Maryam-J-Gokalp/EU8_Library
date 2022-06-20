@@ -1,0 +1,150 @@
+
+
+Agenda: 
+    
+     - Daily Stand up meeting 
+     - Burn down chart 
+     - Demo meeting 
+     - DOD - Definition of Done 
+     - Retro meeting 
+
+====================
+
+Grooming --> 1. PO explains the US to the dev, the US are listed under the PB 
+             2. The dev team members estimate points to the US based on the Fibonacci
+
+
+Sprint planning -> 1. Select US from the PB to the SB based on 
+                    the dev team's capacity & DOR list
+
+
+Tasks / user stories -> need to be tracked -> The dev team wants to know the remaining tasks/stories, identify if the team can work on the sprint goal on time
+
+Daily stand up meeting --> dev team + SM (PO is optional)
+						   SM -> host the stand up meeting 
+                                 take note about the dev team's problem & try to solve it
+
+                           15 minutes 
+                           in the morning, the same meeting room 
+                           the team are encourage to stand up
+                           how the team can update thier tasks/stories? 
+                           - answering 3 questions 
+
+                               1. What did you yesterday/last business day? 
+                               2. What you are doing today? 
+                               3. Do you have any problem? blocker? impedement? 
+
+
+Demo: the dev team show the completed result of the USs to the client & the PO
+       
+      Scrum team - PO, SM, Dev team + the client + PM 
+
+      PO -> host the meeting
+            accept / reject the US
+
+      dev team -> do the demo 
+
+      SM -> ends the sprint (click "complete sprint" button on jira)
+            any incomplete issue will go back to backlog
+
+
+
+    Each scrum team create list of condition/ checklist for defining if a user story is done or not --> DOD
+
+1. each person (dev & qa) will dmeo one by one 
+2. Team lead (3dev & 2qa -> 1 dev is lead) -> demo 
+    2.1: each sprint 1 person will be volunteer to do demo 
+
+        sprint number, total user stories & bugs ..tasks 
+        each story -> bug? fixed? 
+
+3. BA may do demo as well. 
+
+
+Product increment? -> the "DONE" stories are known as PI.
+
+
+Retro: 3 questions are answered by the dev team
+       SM - host the meeting 
+
+       work on site/ office -> 1. SM may provide 3 color papers 
+                                  red paper -> what went wrong? 
+                               yellow paper -> what went well?
+                               green paper  -> what can be done differently? new idea? 
+                              
+                               2. each person verbally answer questions, the SM take note on the excel sheet 
+
+         work remotely -> via app, people are just answering the questions, SM takes note                     
+
+
+happy hour-> on Fridays, the team either go somewhere after work/ dinner 
+             remote -> zoom meeting -> 
+
+
+-----------------------
+
+Tell me how did you implement/use the Agile-Scrum in your team? 
+
+  - Scrum team size & role ->?? people in total - 1SM, 1PO, ?? dev, ??qa
+
+  - Sprint - cycle :  2 weeks , every other [Mon - Fri] 
+
+  - Conduct all the Sprint meetings: 
+
+   Grooming: the PO explains the US that are listed under the PB to the dev team 
+             the dev team estimate points based on the Fibonacci
+
+
+   Sprint planning: Select US from the PB to the SB based on 
+                    the dev team's capacity & DOR list
+                    (SM -> creates & starts -> SB)
+
+
+   Daily stand up: the SM & the dev team , 15m, in the morning at (9/10am)
+                   the dev team update task status by answering 3 questions 
+                               1. What did you yesterday/last business day? 
+                               2. What you are doing today? 
+                               3. Do you have any problem? blocker? impediment? 
+
+                   [burn - down chart -> report, to learn remained USs]
+
+   Demo: Scrum team + the client, PM joins 
+         the dev team demo the completed US 
+         PO accepts/ rejects US based on the DOD criteria/list
+         any completed US are known as product increment/ potential releasable tasks
+         any incomplete US/tasks will back to the PB 
+         [SM -> ends/completed the SB]
+
+
+   retro: for the dev team to revisit the sprint & find out anything is working well? or not working well, any good ideas to make improvement 
+
+          SM host the meeting & the dev team answer 3 questions: 
+            what went wrong? 
+            what went well?
+            what can be done differently? new idea?  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

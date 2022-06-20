@@ -1,0 +1,165 @@
+
+How did you used/implemented Agile-Scrum in your team? 
+   - Scrum team - size: 1 PO, 1 SM, ? devs ?QAs
+   - Sprint cycle - ? weeks
+   - sprint starts every other Mon - Fri?
+   - Scrum ceremonies / meetings 
+
+
+Agenda: 
+
+      - Agile-Scrum
+      - Scrum team - 3 roles : PO, SM, Dev team(Devs & QAs)
+      - Sprint- time box, 1 week ~ 4 weeks,  2 weeks  
+      - Product Increment- done work at the of the sprint
+      - User Story - req in Agile, short & small, INVEST, PO, 
+      - Epic - Big user story
+      - Acceptance Criteria - check list for the User Story , written PO, BA 
+      - Product Backlog - List of user stories , the PO manage & prioritize the PB
+      
+=========================
+
+Software method - rule in the IT company 
+
+waterfall: traditional method
+           step by step method , there is no going back to the previous step 
+           small project -> clear req at the beginning of the SDLC
+
+
+Agile: wildly used among the IT companies now days 
+       manifesto = 4 values + 12 principles 
+
+
+Agile - Scrum - the most used agile framework/branch 
+
+
+What is Scrum? 
+    
+     -  3 roles in Scrum team
+     -  3 Scrum Artifacts(important information)
+     -  5 Scrum meetings 
+
+=====================
+
+Scrum team has 3 roles: 
+         
+         1. PO -> 1 po for one project 
+
+              PO is the voice of the Client, represent the client
+              PO gets the req from the client
+              PO writes User Stories and Acceptance Criterias
+              PO manage and prioritize the Product backlog
+
+         2. Dev team = Developers + QAs,  several devs & QAs,  2-3Dev : 1 QA
+
+         3. SM -> Scrum Master, 1 SM for one project
+
+                  SM is not a technical person
+                  SM is a helper to the team to arrange meetings 
+                  SM is a coach / guide the team with the correct definition in the meeting
+
+
+==========================
+
+Sprint : running for a short distance 
+
+
+ 1 sprint = 1 week 
+            2 weeks --> the most common 
+            3 weeks 
+            4 weeks
+
+In the Agile-Scrum team, who decides what is gonna be the sprint length/cycle? 
+
+ - All the Scrum members decide together
+
+      1 po - release cycle is 2/3 months 
+      1 sm 
+      4 dev 
+      2 qa 
+
+ Sprint cycle will NOT change after its decided. 
+ Sprint can be started any date, the common ones are: Weds, and Thur 
+ Each sprint has a unique number
+
+
+1 sprint =  2 weeks  
+
+1 month   = 4 weeks  = 2 sprint 
+12 months = 52 weeks = 21 - 24 sprints 
+
+
+Ali -> Amazon for 2 years, right now we are at Sprint 48 
+==========================================
+
+Product Increment = DONE tasks at the end of each sprint is called product Increment
+
+
+==========================================
+
+User Story 
+
+
+Business team gather req -> all the req are listed in the SRS document. 
+
+In waterfall, PO writes the req.
+              Req are listed in SRS document
+
+
+In agile, Requirements are called User Story. 
+
+In Scrum, PO writes the User Story
+          User Stories are listed under the Product Backlog.        
+
+
+How we can say if a User Story is good or bad? 
+ - meet the INVEST criteria , good user story
+
+
+Product Backlog -->  list of User stories.
+                     managed by the PO
+                     just one product backlog for one project 
+                     Product backlog is prioritized by the PO
+                     The PO writes 1 - 2 sprints User Stories
+                     Product backlog constantlly updated 
+
+====================
+Epic: 
+
+User Stories should be small --> small enough to complete in one sprint. 
+
+ As a user, I want to create a new quiz. 8 days 
+ As a user, I want to delete a quiz. 2 days
+
+ As a user, I want to watch a recording. 13 days 
+     --> not a small US
+     --> we call the big user stories as Epic
+     --> when devs & qas agree that one US is an Epic, PO will break it down to the small user stories. 
+
+     As a user, I want to watch a recording --> Epic
+
+        - As a user, I want to start a recording to watch. 2 days
+        - As a user, I want to stop a recording while i am watching. 8 days
+        - As a user, I want to ajduest the speed of the recording. 3 days
+  
+=======================================
+Acceptance Criteria 
+
+
+User Story: 
+   As a user, I want to login. 
+
+Acceptance Criteria: 
+   
+   1. user should see "Sign in" word middle of the login page.
+   2. login page title should be "login - Cydeo"
+   3. user should see input box for the username or the email
+   4. user should see input box for the password under the username box
+
+
+
+
+
+
+
+

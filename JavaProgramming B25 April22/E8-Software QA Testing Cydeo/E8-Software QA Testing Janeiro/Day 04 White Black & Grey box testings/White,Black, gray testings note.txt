@@ -1,0 +1,87 @@
+
+Agenda: 
+
+   - White, Black and Gray box testings 
+
+   1. What is White Box Testing? 
+       - Who performs? 
+       - In which Environment? 
+
+   2. What is Black Box Testing?
+       - Who performs? 
+       - In which Environment? 
+
+   3. What is Gray Box Testing?
+       - Who performs? 
+       - In which Environment?  
+
+------------------------
+Software testings : 
+
+    1. Static testing: testing documents
+                       Req gather & designing [1 & 2]
+                       Verification process
+                       Manually
+                       Review, Walkthrough, Inspection 
+
+
+    2. Dynamic testing: testing code & software
+                        Developing & Testing [3 & 4]
+                        Validation process
+                        Both manual & automation
+                        White box, black box, and gray box testings 
+
+--------------------------
+What is White Box Testing? 
+
+      - testing the app with a good knowledge of the app's internal code structure. 
+
+       - Who performs? 
+          - Developers
+
+       - In which Environment? 
+          - The Dev env
+
+Do you have experience performing white box testing? 
+ 
+ - No, As a QA, I do not have experience, 
+
+------------------------------ 
+What is Black Box Testing? 
+
+      - testing the app without any code, tech knowlodge. 
+
+       - Who performs? 
+          - Manual testers, The client, and end users
+
+       - In which Environment? 
+          - Manual testers --> QA env
+
+          - The client , end users --> the Stg env
+
+Do you have experience performing the black box testing? 
+
+ - Yes. 
+
+ - No. 
+------------------------------------
+What is Gray Box Testing? 
+
+      - testing the app with the partial code, tech knowledge. 
+
+       - Who performs? 
+          - automation engineers: QA/SDET, performance engineers  
+
+       - In which Environment? 
+
+          - In the QA env
+
+
+
+
+
+
+
+
+
+

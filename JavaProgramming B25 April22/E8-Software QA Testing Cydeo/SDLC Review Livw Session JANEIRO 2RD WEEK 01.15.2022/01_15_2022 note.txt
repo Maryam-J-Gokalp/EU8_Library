@@ -1,0 +1,186 @@
+01/15/2022 note 
+
+
+Agenda: 
+
+    - Review some terms 
+    - Review SDLC 
+    - Interview Questions / Answers 
+
+-------------------------------------------------
+
+Softskill calss , Asiya , 2018 - b10, b11 - b25, EU1- EU8. SM , BA.
+
+--------------------------------
+
+Interview : someone / people ask questions -> you have to answer 
+          
+             10 minutes - 6 hours. 
+             common - 30m - 2 hours 
+
+
+9am - 5pm -> meeting, write code, 
+
+
+
+1 QA -> 2 candidates -> both good at coding, 
+--------------------------------------------
+
+example for the Web based application: amazon, youtube, Netflix, okta 
+                                          
+                                      browser + interment + URL     
+
+
+Browser: chrome, safari, IE, Firefox, Edge,, 
+
+
+Mobile application : all the apps on your phone 
+
+
+Desktop application : the apps that you downloaded to your computer 
+                
+                       Microsoft office , Discord, zoom , 
+
+
+Hybrid application : Amazon - website, mobile 
+                    
+                     Discord - desktop , mobile 
+                     
+
+1. What type of browsers you have used? 
+     Chrome, safari, IE, Edge .. 
+
+2. Which OS you like the most? 
+      Windows , MacOS 
+
+
+
+FrontEnd testers : how to click a button? how to upload a file? login? 
+
+
+BackEnd testers: DataBase -> if the data are stored correctly? 
+                 API  -> 
+
+
+Full stack testers -> both FronEnd & Backend -> You 
+
+
+
+Youtube: 
+
+Functionality : Any action that a user can do on the the app
+
+                login/logout 
+                search 
+                     type searching word
+                watching video
+                upload 
+                do comments
+                download 
+                subscribe 
+                add list 
+                follow people 
+                share 
+                volume up/down 
+
+
+Non - functionality : performance , speed 
+                     
+                     1 million users try to listen the same music at the same time --> stress testing  
+
+                     capacity -> how much max capacity of file you can upload? 
+
+                     installation -> MacoS ? windows? IOS? Android? 
+
+
+Q: As a QA/sdet, will you perform functional or non-functional testing? 
+   
+    - Functional testing. 
+
+    - non-functional testing is done by a group pf performance testers. 
+
+----
+Canvas app modules : 
+
+modules that students can see: 
+- Account
+- Inbox 
+- Help 
+- Studio
+-Calendar  
+
+------------------------------------
+
+
+SDLC: 
+
+
+Asiya has idea: game app for children to learn ABC. 
+
+
+In order to develop the app, Asiya needs to go to an IT company. 
+
+
+Amazon company -> a PO -> Semmy. 
+
+
+         Asiya is a client to the Amazon, PO. 
+     
+        PO starts to gather req from the client.
+
+        req -> the client's needs - func/color, langues request. 
+
+           req: 
+            login / out 
+            levels 
+            control parent 
+            stop button 
+            starting the game 
+            invite friends 
+            mainly yellow, green, red 
+            age group
+
+
+         Business team PM.,PO,BA -> analyze + plan the project. 
+
+         might take 1 year, $1 million  -> these info+ req -> on SRS doc
+           
+
+Can the client want the details of the software from the IT company?
+
+ - the client provide the major req. Business team PM.,PO,BA -> do also research 
+
+  ex: PO found - game app is good with time control, and extra credit functions
+
+
+-----------------
+
+SDEK steps: 
+
+1. req gather & analyzing -> PO & business team gather req from the client
+                            
+                             prepare SRS doc. 
+
+
+2. Design : Designers design the app blueprint/ model / prototype 
+            
+            prepare SDS doc 
+
+
+Can testers see SRS or not? 
+ 
+ -  it depends. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

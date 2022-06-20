@@ -1,0 +1,18 @@
+package week15.CheckedExceptions;
+in
+        this
+        example
+        we
+        will
+        see
+        IOException
+        another
+        checked
+        exception
+        type
+        we
+        use
+        File
+        Class
+        from
+        Java

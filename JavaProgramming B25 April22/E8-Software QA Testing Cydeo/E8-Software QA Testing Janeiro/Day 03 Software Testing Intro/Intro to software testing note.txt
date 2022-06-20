@@ -1,0 +1,42 @@
+Intro to software testing 
+
+
+Agenda: 
+
+   1. What is software testing? 
+   2. Who performs testing in SDLC?
+   3. How is software testing done? What are the testing procedures?
+   4. Why is software testing required?
+
+
+-------------------
+ 1. What is software testing? 
+
+ - process to make sure the software's quality is good, software testings are performed to prevent & identify bugs by verifying the actual & expected requirements / results. 
+
+
+2. what are the target objects to be tested in the software testing? 
+
+  - Documents 
+  - Code
+  - software itself
+
+
+3. Who is performing testing? 
+
+ - everyone who is involved in the SDLC process. 
+
+
+4. what is testing procedure? How testing is done? 
+
+  - Manual testing 
+  - automation testing 
+
+  Ex: 
+   Req: users should be able to find the Tesla software from Google / user can go to Tesla homepage via google. 
+
+      manual testing ->  QA go to the app , take the actions & take screenshots 
+
+      automation testing -> java + selenium + mvn, many other testing tools 
+
+

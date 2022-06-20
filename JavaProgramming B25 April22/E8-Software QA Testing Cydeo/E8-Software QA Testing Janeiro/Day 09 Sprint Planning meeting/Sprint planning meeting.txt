@@ -1,0 +1,112 @@
+
+Can you tell me how did you implemented Agile-Scrum in your team? 
+
+- Scrum team & size: in my scrum team, I have ?? people - 1PO, 1SM, ??dev, ?QA
+- Sprint cycle - 2 weeks 
+- Scrum meetings: 
+
+   1. Grooming: 1. The PO explains the US & AC to the dev team 
+                2. The dev team assign points to the US based on the Fibonacci 
+                    1,2,3,5,8,13,21 
+
+   
+   2. Sprint planning: 
+      1. SM creates a sprint backlog (on Jira app, just click a button to do so)
+      2. SM & the dev team calculated the team capacity 
+      3. PO take/pull US from the PB to the SB based on the DOR list 
+      4. SM starts the sprint & write our Sprint goal(on Jira app, just click a button to do so)
+
+
+====================
+
+
+Agenda: 
+
+    - Sprint planning meeting 
+    - Sprint Backlog 
+    - Team Capacity 
+    - DOR - Definition of Ready
+     
+===================
+
+Grooming -> 1. The PO explains the US & AC to the dev team 
+            2. The dev team assign points to the US based on the Fibonacci 
+                 1,2,3,5,8,13,21 
+
+              2 weeks sprint:1,2,3,5 --> small user stories 
+                            8,13,21 -> Epic, big user stories. PO will break it down
+
+      output: All the US that the PO prepare are given point
+
+-------------------
+Sprint planning meeting: 
+    who? -> the dev team: developers & QAs
+    time --> sprint starting day ~ ending date 
+    what tasks? --> which exact user stories to complete? 
+    goal? --> complete the US that the dev team select, demonstrate to the PO & the client in the demo meeting 
+
+
+grooming        :at 10 am - 12 pm (1 hour - 2 hours)
+
+Sprint planning : 2 pm - 3 pm (1 hour - 2 hours)
+
+ input: The PO has explained the user stories
+        The user stories are estimated. 
+
+
+during the planning meeting: 
+
+      1. SM creates a sprint backlog (on Jira app, just click a button to do so)
+      2. SM & the dev team calculated the team capacity 
+      3. PO take/pull US from the PB to the SB based on the DOR list 
+      4. SM starts the sprint (on Jira app, just click a button to do so)
+
+      
+ sprint backlog(SB): Each sprint has a sprint backlog
+                     SB is created by the SM 
+                     SB will be listed with the exact user stories that the dev team promise to complete by at the end of the sprint
+
+
+
+     2. SM helps the team to calculate - Team capacity 
+
+Team capacity: dev team -> dev & qas total work availability in a sprint
+        
+             how many days does a dev team work on a sprint?
+                     
+                     (2 days are only for the meetings, 1st and last day)
+              dev1 - 10 days in a sprint -> 8 days to work on US in a sprint 
+              dev2 - 10 days in a sprint -> 8 days to work on US in a sprint 
+              dev3 - 10 days in a sprint -> 8 days to work on US in a sprint 
+              qa1  - 10 days in a sprint -> 8 days to work on US in a sprint 
+              qa2  - 10 days in a sprint -> 8 days to work on US in a sprint 
+            -------------------  total   -> 8+8+8+8+8= 40 -> team capacity 
+
+
+         calculate team capacity for sprint 1 : holiday? 
+
+          SM: Any one has any day off in this sprint? (03/01 -- 03/12)
+              - anyone has any appointment so that he/she cannot work
+
+                Vincent (Dev)     8
+                Rahul (Dev)       8
+                Aysel (Dev)       8
+                Jessica (QA)      8
+                Mustafa(QA)       7
+                Team Capacity     39 -> sprint 1 
+
+        What does 39 mean? how do we use that number in our planning? 
+
+        Team capacity == total user story points that the team can work in the sprint. 
+
+
+    3. the PO takes the user stories from the backlog to the sprint backlog
+
+       - US are selected - priority 
+                         - DOR: Definition of ready 
+
+
+       DOR - list of condition that the Scrum team created
+              
+
+

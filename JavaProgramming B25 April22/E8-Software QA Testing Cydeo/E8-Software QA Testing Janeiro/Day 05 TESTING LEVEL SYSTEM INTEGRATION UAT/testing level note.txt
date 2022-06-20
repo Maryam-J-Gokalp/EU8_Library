@@ -1,0 +1,156 @@
+
+Agenda: 
+
+	1. What are the testing levels / Testing hierarchy?  
+	2. What is Unit Testing? Who performs it? In which Environment? 
+    3. What is Integration Testing? Who performs it? In which Environment? 
+    4. What is System Testing? Who performs it? In which Environment?
+	5. What is User Acceptance Testing (UAT)? Who performs it? In Which Environment? 
+
+-----------------------------
+Testing levels : 
+
+    - Unit testing 
+    - Integration testing 
+    - System testing 
+    - UAT - User Acceptance Testing
+
+req: login function 
+
+1.  Unit testing -> testing the small unit / individual module of the app from the code perspective. Also called module/component testing. 
+
+    who : Developers 
+
+    env : the dev env
+
+
+2. Integration testing -> testing 2 or mroe modules of the application and see if they work together or not. 
+
+   who: Developers 
+
+        { in some companies, SDET can do integration testing. }
+
+   Env: the dev env
+
+
+do you have experience performing integration testing? 
+- no, I do not have experience, in my project, our dev performed the integration testing.  but I am willing to learn it. 
+
+
+canvas app: 
+   unit test -> login 
+   unit test -> file upload 
+   unit test -> file download 
+   unit test -> calendar 
+
+
+   integration scenario -> teacher login -> upload java file -> download the file
+
+
+    
+Developers deploy their codes from the Dev to the QA env. 
+
+3. System testing -> test the software as a whole project.
+
+     Who: SDET/QA , Performance testers
+     Env: in the QA/test env 
+
+           System is divided into: 1. Functional testing 
+
+                                       Who: SDET/QA
+                                       env: in the QA/test env 
+
+                                       QA1 -> login fun _UI
+                                              logout
+                                       QA2 -> file upload 
+                                              file share
+
+
+                                   2. Non-Functional testing 
+
+                                       Who: Performance testers
+                                       env: In the QA/test env 
+
+
+4. UAT -> user acceptance testing 
+
+      UAT is divided into 2 testing: 1. UAT - Alpha testing -> testers 
+
+                                     2. UAT - Beta testing -> the client, end users
+
+
+       env : the staging / pre-production env 
+
+        The client -> "test" == manually "use" 
+
+        UAT team -> testers - QAs 
+        ex: login -> upload a file from UI -> if the file is in DB 
+
+----------------------------------------
+
+
+Asiya -> speaking, talking, teaching, giving lecture ...
+
+
+a develoepr write code to develop a function : 
+   
+   - Dynamic, white box testing, unit testing - integration testing
+
+a QA testing a function : 
+  
+   - Dynamic, gray box , system, Function, 
+
+a manual tester test a func: 
+
+  - Dynamic, black box , system, Function, 
+
+
+a client testing the app: 
+ 
+  - Dynamic - black box, UAT, Beta 
+
+a UAT tester performing testing: 
+  
+  - Dynamic , gray box, UAT , Alpha 
+
+
+========================================
+
+
+req: 
+QA1 -> users should be able to upload files_UI. 
+ 
+QA2 -> upload files should be stored in the DB_DB. 
+
+QA3 -> users should be able to uplaod files_API. 
+
+function -> upload files
+
+         UI testing -> button? link? type? message? emoji? file uplaod download ?
+                      java - selenium, cucumber, junit, maven 
+
+         DB testing -> data in the DB? 
+                       SQL ->  java - JDBC, cucumber, junit, maven 
+
+         API testing -> URL 
+                        java - RestAssuredAPI, cucumber, junit, maven 
+
+
+in the interview, you have to ask from the interviewer - their expectation from you for the role & responsibility. 
+
+   - API tester
+
+   - full-stack 
+
+
+--------------------------
+Cross-browser testing - > running 1 task with multiple browsers. 
+
+users should be able to upload files_UI. 
+ 
+  - code -> chrome 
+         -> Firefox 
+         -> safari 
+
+
+

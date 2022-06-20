@@ -1,0 +1,250 @@
+
+Agenda: 
+
+   STLC step 3: Test Case creation 
+
+
+[ Note: Next week, each group conducts a meeting: Project initial prep meeting
+
+      Team name, Sprint cycle, Scrum meeting schedule, DOR/DOD, etc ]
+
+===================================
+
+is STLC steps for the whole project or for just one User Story? 
+------------------
+
+
+STLC 1st step: req analyze
+
+As a student, I want to watch a recording_UI(DB/API). 
+
+1. which function am I going to test? 
+
+2. is it UI? DB? API? 
+
+3. Testing approach? manual? automatically? both? 
+
+     case: Only manual. becasue the automation tool is not avaliable to automate the function. EX:bar code, download file
+
+     case: Only automation. 85-90% auto -- 10-15% manual 
+
+     case: both manual & automation. deoends on your role & responsibility. 
+
+
+STLC step 2: Test plan creation 
+             
+             What is a test plan? who writes Test plan document? 
+             - is a doucment -> QA team planning scheule, test strategy - tools/scop, recourses, risk & mitigation, someone from the business team approves the doc.   
+
+            who writes Test plan document?  
+             - test lead 
+             - I create the test plan doc. 
+
+
+     waterfall -> a group of testers test the whole project at once. 
+
+                   SRS, SDS, QA env 
+
+                   meeting: Test plan discuesstion 
+
+
+                   Test lead is taking note from the meeting, then he/she will write the test plan doc . 
+
+
+                    due date: 2/01 ---> 08/01 
+
+                    recourses:
+                    human : list names of the testers 
+                    software : discord, jira, vm, IDES, aws, jenkins ....
+                    hardware: computer, monitor , 
+
+              Test stratgegy?
+                  1. testings types == testing scop  -> Select from the test level
+
+                     System testing: Func-> UI, DB, API, Smoke, rgression, 
+                                     Non-Func -> strees, capacity, volume, etc
+
+                     UAT: Beta testing -> the client , end users
+                          
+
+
+                    2. testing tools 
+                    3. Environment 
+
+
+               Risk & Mitigation: possible problems & solution 
+
+
+
+               after the test plan contant discusstion meeting, QA lead wirte the test plan doc -> QAs have another meeting to review the docuemnt -> then submit the doc to the business team to approve it. 
+               note: QAs are performing static testing in this situation. 
+                
+
+
+
+     Agile -> 1 testers test 1 function at a time. 
+
+             in Agile, it is optional to make a test plan document. 
+
+             In Scrum, some teams think that since there is sprint plan for each sprint, having test plan is taking extra time. so they do not have any. 
+
+             There are teams they do have test plan documents.
+             Most of the times, the teams have Release level test plans. 
+
+                release v1.0 -> Feb -> May --> ABC functions
+
+                QAs prepare one test plan contant in a meeting. QA lead can write the test plan.  
+
+
+                release v2.0 -> May -> Aug --> DEF functions
+                 QAs prepare one test plan contant in a meeting. QA lead can write the test plan.  
+
+
+
+
+
+code review -> a meeting , at the end of each sprint. 
+               QAs review each other's code. 
+
+
+
+========================================
+
+
+As a student, I want to watch a recording so I can review the calss. 
+
+ 
+   the US will be assigned to a QA. 
+
+   step1: The QA will create test case document. 
+
+   step2: the QA will write test script == code. 
+
+   step3: manual & automation execution starts. 
+
+
+-------------------------
+
+     where is the "waching recording function"? 
+
+
+test case -> 
+     ID: 001 
+     discription: users can watch recording 
+
+    a user in on the dashbaord
+    the user click a course    -> data: name of the course 
+    the user clicks a recording  -> data: name of the recording
+    then user should be able to watch the recording successful 
+
+   environemt: qa.canvas.com
+
+
+
+
+
+Sprint1 -> 1 qa tested the login function 
+
+
+after sptint6 there is a release -> regression tetsing -> manually test all the US & its test cases one more time before release. 
+
+-----------------------------
+
+STLC step3 : test case creation 
+
+         Each QA creates at least 1 Test case for each US. 
+
+         Test case includes: 
+
+          ID -> number
+
+          descriotion  -> phrase, short sentence 
+
+          steps -> details steps , 
+
+
+
+How do you document your test case? 
+  
+   - Project management tool/app -> jira, radar, rally, Bugzilla, etc 
+
+   - excel sheet 
+
+
+US 1-> 3 TC 
+   
+   BOA1
+   BOA2
+   BOA3
+
+US 2-> 2 TC
+   
+   BOA4
+   BOA5
+
+US 2-> 5 TC
+   
+   BOA6
+   BOA7
+   BOA8
+   BOA9
+
+
+
+As a user, I want to login. 
+
+AC: 1. Admin login -> 3 modules : A,B, C
+    2. Student login -> 2 modules : A,B 
+    3. There should be a user input box above the password, 
+    4. "Sign in"  button with blue background is 
+
+
+4: 20 pm 
+---------------------------------
+
+Interview question: in the zoom interivew
+
+1. write test cases for the FB login page. 
+
+     - production env 
+
+     - no data is provided 
+
+
+
+2. Write test cases for reverse string code. [asked to write the code first, then write test case to it]
+
+
+**** while you are writing the test case, you do not care about the actual result. 
+
+*** While perforing the manual & automation testing, then i WILL write the actual result, pass/fail status. 
+
+
+
+
+4rth possibility that we could test : 
+
+ user login with empity credentiasl -> warning message 
+                                       The email or mobile number you entered isn’t connected to an account. Find your account and log in.
+
+
+
+3rd possibility
+valid email -> invalid password -> The password you’ve entered is incorrect. Forgot Password?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

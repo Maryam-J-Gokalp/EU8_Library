@@ -1,0 +1,89 @@
+
+Agenda: 
+    - Quick review testing types
+
+    - Regression testing : why? when? how many scenario/test cases? how long to run?
+         - Parallel testing
+
+    - Smoke testing: why? when? how many scenario/test cases? how long to run?
+
+============================
+Sprint 1 : 10 user stories 
+           
+            1 dev -> 1 story(delete files) -> code is done to develop the function 
+
+                     unit testing -> in the Dev env
+
+                     integration testing -> in the Dev env
+
+
+            1 QA -> the delete files function -> functional testing 
+
+                     UI testing 
+                     DB testing 
+                     API testing
+
+==============================
+
+Business team -> inform the QAs about the release plan: release due date? 
+                                                        release cycle
+                                                        features 
+
+EX: amazon -> project : 1.5 years , released 7 times 
+
+             how many regression is performed in the last 1.5 years? 
+              - regression testing is performed for 7 times 
+              - because the regression testing is done right before the release
+
+
+Regression testing can divide into 2 parts: 
+
+1. small / minor regression -> at the end of each sprint
+                               only the TC created during the sprint is AUTOMATED
+
+2. big / major regression -> before the release 
+                             both manual & automation testing is performed 
+
+
+
+can you tell me about your regression? 
+
+- what is regression in 1 sentence 
+- we perform the Regression before each release - our release cycle is: 3/4/month
+          - small/minor Regression is performed at the end of each sprint
+
+- how many total scenarios you have : 500 -- 3000 scenario
+- automation : run it with 2---6 VM + takes 30 minutes --- 4 hours 
+- manual testing -> 20% of the total TC -> around a week of time 
+
+=============================
+
+smoke test rule: 
+     1. quick execution -> less amount of TC 
+     2. max 30m 
+     3. run the smoke test TCs every morning  
+
+Release 1(S1--S4) : 04/30
+
+sprint 5: 8 user stories 
+        
+         1 day: all the QAs conduct a meeting: select TC for the smoke test 
+          
+
+          90 TC -> positive TC + major functions TC + enough to evaluate the entire feature is working fine 
+
+          smoke test ==> 10 TC/scenarios -> @smoke tag name
+
+          schedule for the smoke test: 5am / 6/ 7/ 8/9 AM
+
+          after the meeting, QA lead provide the info to the DevOps team 
+
+          devOps team: create a smoke test job from Jenkins app
+
+
+
+QA -> intelliJ + click run button -> result of the code
+
+Jenkins -> GitHub + @smoke codes -> VM -> run the code  -> result send to your email
+
+
