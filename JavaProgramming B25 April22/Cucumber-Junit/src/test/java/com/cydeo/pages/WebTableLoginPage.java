@@ -38,6 +38,7 @@ public class WebTableLoginPage {
          */
     }
 
+
     /**
      * 2rd method of login for the page object modelDesign a logic at work we ShouldHave1 package &when we go 2 work
      * WeCreate at 1 version. NextTime&JustWatToLogInCreate LogInMethodAbove and so on...configurationReader() below
