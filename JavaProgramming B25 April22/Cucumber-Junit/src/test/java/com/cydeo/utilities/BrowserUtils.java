@@ -26,7 +26,6 @@ for given duration
 
         }
     }
-
     /*
     This method accepts 3 arguments.
     Arg1: webdriver

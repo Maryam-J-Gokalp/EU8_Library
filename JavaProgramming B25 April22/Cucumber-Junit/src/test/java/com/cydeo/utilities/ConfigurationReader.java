@@ -22,7 +22,6 @@ public class ConfigurationReader {
             //close the file
             file.close();
 
-
         } catch (IOException e) {
             System.out.println("File not found in the ConfigurationReader class.");
             e.printStackTrace();

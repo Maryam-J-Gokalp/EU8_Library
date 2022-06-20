@@ -32,7 +32,6 @@ public class Driver {
 
         if (driverPool.get() == null){
 
-
             /*
             Every time we use drive we are going to use-->driverPool.get example above
             We read our browserType from configuration.properties.
