@@ -60,5 +60,4 @@ Feature: Web table user order feature
 |MoneyCog   |6       |John Muir   |London st|London|England|50505  |Visa    |1111222233334444|12/24  |John Muir   |
 
 
-
     # The plugIn we add is to keep track of the failure scenario
