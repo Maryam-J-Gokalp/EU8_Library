@@ -64,9 +64,6 @@ public class GoogleStepDefinitions {
 
         Assert.assertEquals(expectedTitle, actualTitle);
 
-
-
     }
-
 
 }
