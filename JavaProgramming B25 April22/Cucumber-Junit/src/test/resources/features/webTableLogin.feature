@@ -13,7 +13,6 @@ Feature: Login scenario
 
  #The Above test will be test as a string and pass into my WebDriver_StepDef & pass insideMy send keys
 
-
    Scenario: Positive login scenario
     When user enters username "Test" password "Tester" and logins
     Then user should see url contains orders
